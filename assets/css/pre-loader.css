@@ -39,7 +39,7 @@
   #preloader .line:before {
     content: "";
     position: absolute;
-    background-color: #ffffff;
+    background-color: #ffb2fb;
     left: 0;
     top: 50%;
     width: 1px;

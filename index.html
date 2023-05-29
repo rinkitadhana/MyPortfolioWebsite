@@ -36,19 +36,9 @@
 
 
 
-  
 </head>
 
 <body>
-
-   <!--Background Audio Starts-->
-<audio loop autoplay></audio>
-  <source src="/assets/music/rainbg.mp3" type="audio/mpeg">
-</audio>
-  <!--Background Audio ends-->
-
-
-
   <!--Header Starts-->
   <header id="header">
     <div class="container">
@@ -98,7 +88,7 @@
           <img src="/assets/img/me.jpg" class="img-fluid" alt="">
         </div>
         <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-          <h3>UI/UX &amp; Graphic Designer</h3>
+          <h3>FRONT-END & JAVA DEVELOPER</h3>
           <p class="fst-italic">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
             magna aliqua.
@@ -483,7 +473,10 @@
           </div>
         </div>
       </div>
+     <div class="resume-link">
+            <a target="_blank" href="/assets/pdf/Rinkit Adhana Resume.pdf"><p>Click Here!</p></a>
 
+     </div>
     </div>
   </section>
   <!--Resume Ends-->
@@ -775,7 +768,7 @@
           <div class="error-message"></div>
           <div class="sent-message">Your message has been sent. Thank you!</div>
         </div>
-        <div class="text-center"><button type="submit">Send Message</button></div>
+        <div class="text-center"><button id="click-button" type="submit">Send Message</button></div>
       </form>
 
     </div>
@@ -795,7 +788,8 @@
     Designed by <a href="https://github.com/rinkitadhana">Rinkit Adhana</a>
   </div>
   <!--Credits ends-->
-  
+
+
   <!-- Vendor JS Files starts-->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -813,6 +807,24 @@
   <!--Preloader JS File starts-->
   <script src="assets/js/pre-loader.js"></script>
   <!--Preloader JS File ends-->
+
+  <!--Send Message sound start-->
+  <audio id="click-sound" src="/assets/music/click thunder.wav"></audio>
+  <script>
+  // Retrieve the audio element
+  const clickSound = document.getElementById('click-sound');
+
+  // Retrieve the button element
+  const clickButton = document.getElementById('click-button');
+
+  // Add a click event listener to the button
+  clickButton.addEventListener('click', function() {
+    // Play the click sound
+    clickSound.play();
+  });
+</script>
+<!--Send Message sound end-->
+
 
 </body>
 
