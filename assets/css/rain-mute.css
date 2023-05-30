@@ -18,7 +18,8 @@
     height: 25px;
     display: block;
     margin: 12.5px auto;
-    z-index: 9999;
+    z-index: 999;
+   
   }
   
   #unmuteIcon {
@@ -32,3 +33,6 @@
   #muteButton.muted #unmuteIcon {
     display: block;
   }
+  #muteIcon.img{
+  }
+
