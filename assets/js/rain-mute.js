@@ -1,4 +1,3 @@
-
 var audio = document.getElementById("myAudio");
 var muteButton = document.getElementById("muteButton");
 
