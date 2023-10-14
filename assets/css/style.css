@@ -125,7 +125,6 @@ h6 {
 @media (max-width: 992px) {
   #header h1 {
     font-size: 36px;
-    text-align: justify;
   }
 
   #header h2 {
@@ -1195,7 +1194,7 @@ section .container {
   font-family: "Poppins", sans-serif;
   color: #000000;
   border-style: solid;
-  width: 250px;
+  width: 190px;
    text-align: center;
     border-radius: 25px; 
     background-color: #ffb2fb
